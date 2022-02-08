@@ -14,6 +14,10 @@ public class Person {
     @ColumnInfo(name = "name")
     private String name;
 
+    public Person(String name) {
+        this.name = name;
+    }
+
     public int getPersonId() {
         return personId;
     }
