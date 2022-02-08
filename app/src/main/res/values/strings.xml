@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Lab6-Starter-Debugging</string>
+    <string name="go_back">Go Back</string>
+    <string name="add_note">Add Note</string>
+    <string name="new_note_hint">New Note</string>
+</resources>
