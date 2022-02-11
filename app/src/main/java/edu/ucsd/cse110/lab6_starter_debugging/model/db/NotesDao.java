@@ -17,6 +17,9 @@ public interface NotesDao {
     @Query("SELECT * FROM notes WHERE person_id=:id")
     Note get(int id);
 
+    @Query("SELECT COUNT(1) FROM notes WHERE person_id=:id")
+    int getSize(int id);
+
     @Insert
     void insert(Note note);
 
